@@ -20,7 +20,7 @@ top: 50%;
 margin: -20px 0 0 -12px;
 }
 .button .icon div:after{
-    --1: 14px; --w: 26px;
+    --l: 14px; --w: 26px;
     --tx: 1px;
     transform: rotate(var(--after-rotate, 0deg));
 }
