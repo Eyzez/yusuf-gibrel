@@ -1,0 +1,44 @@
+.button svg {
+    display: block;
+    fill: none;
+    stroke-width:var(--sw, 3px);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.button .circle {
+    width: 76px;
+    height: 76px;
+    transform: rotate (-90deg);
+}
+.button .icon {
+--sw: 2px;
+width: 24px;
+height: 40px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin: -20px 0 0 -12px;
+}
+.button .icon div:after{
+    --1: 14px; --w: 26px;
+    --tx: 1px;
+    transform: rotate(var(--after-rotate, 0deg));
+}
+.button .icon div svg{
+    stroke: var(--active);
+}
+.button .icon
+div svg.arrow{
+    width: 40px; height: 32px;
+opacity: var(--arrow-opacity,1);
+transition: opacity 0s linear
+var(--all-delay,1s);
+}
+
+
+
+
+
+
+
+
